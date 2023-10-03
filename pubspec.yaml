@@ -3,9 +3,8 @@ version: 0.8.0+3
 homepage: https://github.com/ericmartineau/flexidate
 description: A flexible date parsing and handling library
 environment:
-  sdk: '>=2.14.0 <3.0.0'
+  sdk: '>=3.0.6 <4.0.0'
 dependencies:
-  collection: ^1.18.0
   dartx: ^1.2.0
   dartxx: ^0.5.5
   equatable: ^2.0.3
