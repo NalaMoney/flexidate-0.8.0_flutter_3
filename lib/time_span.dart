@@ -366,7 +366,7 @@ extension TimeSpanUnitExt on TimeSpanUnit? {
         return TimeSpan.ofParts(
             _newTimeSpanList(TimeSpanUnit.second, amt.toDouble()));
       default:
-        return (throw Exception("Invalid time span unit: ${this}"));
+        return (throw Exception("Invalid time span unit: $this"));
     }
   }
 
